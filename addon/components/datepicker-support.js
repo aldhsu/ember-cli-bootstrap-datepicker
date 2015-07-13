@@ -3,6 +3,9 @@ import Ember from 'ember';
 export default Ember.Mixin.create({
   mustUpdateInput: true,
   value: null,
+  startDate: null,
+  endDate: null,
+  language: null,
 
   setupBootstrapDatepicker: Ember.on('didInsertElement', function() {
     var self = this;
