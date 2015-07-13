@@ -5,7 +5,7 @@ export default Ember.Mixin.create({
   value: null,
   startDate: null,
   endDate: null,
-  language: null,
+  language: "EN",
 
   setupBootstrapDatepicker: Ember.on('didInsertElement', function() {
     var self = this;
